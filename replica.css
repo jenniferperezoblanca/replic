@@ -1,0 +1,72 @@
+body{
+  background-color:BLACK;
+  margin:0;
+  
+}
+
+header{
+  display: flex;
+  height: 70px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; 
+}
+  
+.desplegable {
+  display:flex;
+  height: 70px;
+  font-weight: 600;
+  padding-right: 20px;
+  color:white;
+  align-items: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+nav a {
+  font-weight: 600;
+  padding-right: 20px;
+  color:white;
+
+}
+.nav1{
+  display:flex;
+  justify-content: space-between; 
+}
+
+nav a:hover {
+  color: blue;
+
+}
+.logo{
+  display: flex;
+  justify-content: left;
+  color: white;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+h1{
+  color:white
+}
+
+p{
+  color: WHITE
+}
+
+.boton { 
+  
+ color: white;
+ border: 1px;
+padding: 10px;
+font-weight:bold;
+
+}
